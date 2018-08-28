@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.com.hf.uaa"
+    },
+    "jhipsterVersion": "5.2.1",
+    "applicationType": "uaa",
+    "baseName": "hfuaa",
+    "packageName": "vn.com.hf.uaa",
+    "packageFolder": "vn/com/hf/uaa",
+    "serverPort": "8888",
+    "authenticationType": "uaa",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mariadb",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "d2706a632f26d6f4d350b83e961350fa2215a24f",
+    "enableTranslation": false,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "skipClient": true
+  }
+}
