@@ -1,12 +1,12 @@
 version: '2'
 services:
-    hfprofileservice-mariadb:
+    hf-mariadb:
         image: mariadb:10.3.7
         # volumes:
         #     - ~/volumes/jhipster/hfProfileService/mysql/:/var/lib/mysql/
         environment:
             - MYSQL_USER=root
-            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+            - MYSQL_ROOT_PASSWORD=mysql
             - MYSQL_DATABASE=hfprofileservice
         ports:
             - 3306:3306
