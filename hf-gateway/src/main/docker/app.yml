@@ -5,20 +5,20 @@ services:
         environment:
             # - _JAVA_OPTIONS=-Xmx512m -Xms256m
             - SPRING_PROFILES_ACTIVE=prod,swagger
-            - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/eureka
-            - SPRING_CLOUD_CONFIG_URI=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/config
-            - SPRING_DATASOURCE_URL=jdbc:mariadb://hfgateway-mariadb:3306/hfgateway
+            - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:$${jhipster.registry.password}@hf-registry:8761/eureka
+            - SPRING_CLOUD_CONFIG_URI=http://admin:$${jhipster.registry.password}@hf-registry:8761/config
+            - SPRING_DATASOURCE_URL=jdbc:mariadb://hf-mariadb:3306/hfgateway
             - JHIPSTER_SLEEP=30 # gives time for the JHipster Registry to boot before the application
         ports:
             - 7070:7070
-    hfgateway-mariadb:
+    hf-mariadb:
         extends:
             file: mariadb.yml
-            service: hfgateway-mariadb
-    jhipster-registry:
+            service: hf-mariadb
+    hf-registry:
         extends:
             file: jhipster-registry.yml
-            service: jhipster-registry
+            service: hf-registry
         environment:
             - SPRING_CLOUD_CONFIG_SERVER_COMPOSITE_0_TYPE=native
             - SPRING_CLOUD_CONFIG_SERVER_COMPOSITE_0_SEARCH_LOCATIONS=file:./central-config/docker-config/
