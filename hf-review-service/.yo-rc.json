@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.com.hf.review"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "hfReviewService",
+    "packageName": "vn.com.hf.review",
+    "packageFolder": "vn/com/hf/review",
+    "serverPort": "8083",
+    "authenticationType": "uaa",
+    "uaaBaseName": "hfuaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mariadb",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "N2Q4NDk4ZTE0ZTE5NjhlZjNmNzY2OWQ3ZDQ0NWI3ZTI5MjE0NTA2M2RiMzIwY2E3NThjZjM0YzRiZGZkOGYyYTM1ZDdkNDMxNjUyYzk3ZmQ1NjQ1OTMyMzQ0MzUxMmYwMTE5MzY0OWU3NjAwODBlODU1OWFmNzVjZTM4OWM5Zjc=",
+    "enableTranslation": false,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

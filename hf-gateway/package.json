@@ -8,8 +8,8 @@
     "node_modules"
   ],
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "5.2.0",
     "@fortawesome/fontawesome-svg-core": "1.2.2",
+    "@fortawesome/free-solid-svg-icons": "5.2.0",
     "@fortawesome/react-fontawesome": "0.1.0",
     "availity-reactstrap-validation": "2.0.4",
     "axios": "0.18.0",
@@ -98,7 +98,7 @@
     "tslint-loader": "3.6.0",
     "tslint-react": "3.6.0",
     "typescript": "2.9.2",
-    "webpack": "^4.14.0",
+    "webpack": "^4.17.2",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "3.1.4",
     "webpack-merge": "4.1.3",

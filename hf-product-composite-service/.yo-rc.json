@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.com.hf.composite"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "hfProductCompositeService",
+    "packageName": "vn.com.hf.composite",
+    "packageFolder": "vn/com/hf/composite",
+    "serverPort": "8084",
+    "authenticationType": "uaa",
+    "uaaBaseName": "hfuaa",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mariadb",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "ZjVhOGNlZGVhZTlmOGM3NzcyZWZmMDVmY2RmNjVjZGE5ZmY2MDRmMzdlZTFiMTRkNDQ3MjMxMzFmN2U1NjBhYmQ5NmIwZjlkNjZhOWZhOWQ4MzFhOGZhNTJkZTVkNDA3ZmU1NDQzYmFkNjkyODA3OGZiOWRhYzU0MTYxYjhhZGY=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
